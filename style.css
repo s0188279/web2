@@ -18,10 +18,15 @@
 
 .logo {
     text-align: left;
-    width: 120px;
+    width: 150px;
     float: left;
     bottom: 840px;
     left: 10px;
+}
+
+.links {
+     list-style-type: none;
+     margin-right: 10px;
 }
 
 nav ul {
