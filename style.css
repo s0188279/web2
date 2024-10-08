@@ -1,4 +1,5 @@
 ﻿body {
+    text-align: center; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@
 }
 
 .logo {
+    text-align: left;
     width: 120px;
     float: left;
     bottom: 840px;
@@ -23,6 +25,8 @@
 }
 
 nav ul {
+    font-size: 20px;
+    text-align: right;
     list-style-type: none;
     padding: 0;
 }
@@ -52,11 +56,11 @@ thead th {
     background-color: #ff9baa;
 }
 
-.odd {
+tr:nth-child(odd) {
     background-color: #ffffff;
 }
 
-.even {
+tr:nth-child(even){
     background-color: #f9f9f9;
 }
 
