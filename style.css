@@ -1,7 +1,6 @@
 ﻿body {
-    max-width: 960px;
     font-family: Arial, sans-serif;
-    margin: auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -25,6 +24,8 @@
 }
 
 .links ul {
+     max-width: 960px;
+     margin: auto;
      text-align: left;
      list-style-type: none;
 }
@@ -35,9 +36,13 @@
 
 .tabl {
     text-align: left;
+    max-width: 960px;
+    margin: auto;
 }
 
 .forma {
+    max-width: 960px;
+    margin: auto;
     text-align: left;
 }
 
